@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-silver: #9aa7bc;
+  --bg-yellow: #f1916e;
+}
+.bg-yellow {
+  background: var(--bg-yellow);
+}
+.text-silver {
+  color: var(--bg-silver);
+}
+h1 {
+  font-family: Monoton, cursive;
+}
+h2 {
+  font-family: Staatliches, cursive;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kelly Slab", cursive;
+}
+p {
+  font-family: Quantico, sans-serif;
+}
+body ul li {
+  font-family: "Kelly Slab", cursive;
+}
+#herosection {
+  padding: 150px 0 80px 0;
+}
+button span {
+  font-family: Staatliches, cursive;
+}
+.button1 {
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+}
+.button1 span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 7.25em;
+  height: 2em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+.button1 span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+.button1 span:not(hover) {
+  transition: all 1s;
+}
+#Why_card .card {
+  width: 300px;
+  height: min-content;
+  transition: all 0.3s;
+  position: relative;
+  border-radius: 0.5rem 2rem;
+  box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.img {
+  transition: all 0.3s;
+  background-color: #f1916e;
+  background-image: linear-gradient(315deg, #fafbd0 0, #f1916e 74%);
+  width: 100%;
+  padding: 20px;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+.img-container {
+  display: grid;
+  border-radius: 0.5rem 2rem;
+  height: 270px;
+  overflow: hidden;
+}
+.description {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  text-align: start;
+  padding: 0.5rem 1em;
+  width: 90%;
+  transition: all 0.5s ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  backdrop-filter: blur(0.1rem);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem 2rem;
+}
+.description:hover {
+  transform: perspective(100px) translateX(7px) rotateX(3deg) rotateY(3deg)
+    scale(1);
+  box-shadow: none;
+}
+.title {
+  color: #f0f8ff;
+}
+#Why {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(
+    #f1916e 1.4000000000000001px,
+    #e5e5f7 1.4000000000000001px
+  );
+  background-size: 28px 28px;
+}
+#TOKENOMICS {
+  background-color: #f1916e;
+  background-image: linear-gradient(315deg, #f1916e 0, #ffffff 74%);
+  opacity: 0.8;
+  background-size: 32px 32px;
+}
+.inner_card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+}
+#ROADMAP {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(
+    #f1916e 1.4000000000000001px,
+    #e5e5f7 1.4000000000000001px
+  );
+  background-size: 28px 28px;
+}
+.card3 {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.card3-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 999ms;
+}
+.card3:hover .card3-inner {
+  transform: rotateY(180deg);
+}
+.card3-back,
+.card3-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card3-front {
+  background-color: #f1916e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #f1916e;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0);
+}
+.card3 .card3-back {
+  background-color: #f9f6f5;
+  color: #000;
+  display: flex;
+  align-items: center;
+  border: 10px solid #f3ecea;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+.card3 ul li {
+  font-size: 15px;
+}
+#Buy {
+  background-color: #f1916e;
+  background-image: linear-gradient(315deg, #f1916e 0, #fffef5 74%);
+  opacity: 0.8;
+  background-size: 32px 32px;
+}
+.card4 {
+  border: 1px solid #f3ecea;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0 -2px 6px 0 inset;
+}
+.part {
+  box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
+    rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset,
+    rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px,
+    rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px,
+    rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+}
+.part2 {
+  box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset,
+    rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset,
+    rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px,
+    rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px,
+    rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+}
+#copyright,
+#partners {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(
+    #f1916e 1.4000000000000001px,
+    #e5e5f7 1.4000000000000001px
+  );
+  background-size: 28px 28px;
+}
+#CONTACT {
+  background-color: #f1916e;
+  background-image: linear-gradient(315deg, #f1916e 0, #fffdeb 74%);
+  opacity: 0.8;
+  background-size: 32px 32px;
+}
