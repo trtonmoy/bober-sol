@@ -5,7 +5,7 @@
 }
 :root {
   --bg-silver: #9aa7bc;
-  --bg-yellow: #f1916e;
+  --bg-yellow: #92fa5a;
 }
 .bg-yellow {
   background: var(--bg-yellow);
@@ -79,8 +79,8 @@ button span {
 }
 .img {
   transition: all 0.3s;
-  background-color: #f1916e;
-  background-image: linear-gradient(315deg, #fafbd0 0, #f1916e 74%);
+  background-color: #92fa5a;
+  background-image: linear-gradient(315deg, #fafbd0 0, #92fa5a 74%);
   width: 100%;
   padding: 20px;
 }
@@ -119,14 +119,14 @@ button span {
   background-color: #e5e5f7;
   opacity: 0.8;
   background-image: radial-gradient(
-    #f1916e 1.4000000000000001px,
+    #92fa5a 1.4000000000000001px,
     #e5e5f7 1.4000000000000001px
   );
   background-size: 28px 28px;
 }
 #TOKENOMICS {
-  background-color: #f1916e;
-  background-image: linear-gradient(315deg, #f1916e 0, #ffffff 74%);
+  background-color: #92fa5a;
+  background-image: linear-gradient(315deg, #92fa5a 0, #ffffff 74%);
   opacity: 0.8;
   background-size: 32px 32px;
 }
@@ -139,7 +139,7 @@ button span {
   background-color: #e5e5f7;
   opacity: 0.8;
   background-image: radial-gradient(
-    #f1916e 1.4000000000000001px,
+    #92fa5a 1.4000000000000001px,
     #e5e5f7 1.4000000000000001px
   );
   background-size: 28px 28px;
@@ -167,11 +167,11 @@ button span {
   backface-visibility: hidden;
 }
 .card3-front {
-  background-color: #f1916e;
+  background-color: #92fa5a;
   color: #fff;
   display: flex;
   align-items: center;
-  border: 10px solid #f1916e;
+  border: 10px solid #92fa5a;
   border-radius: 10px;
   justify-content: center;
   font-size: 24px;
@@ -192,8 +192,8 @@ button span {
   font-size: 15px;
 }
 #Buy {
-  background-color: #f1916e;
-  background-image: linear-gradient(315deg, #f1916e 0, #fffef5 74%);
+  background-color: #92fa5a;
+  background-image: linear-gradient(315deg, #92fa5a 0, #fffef5 74%);
   opacity: 0.8;
   background-size: 32px 32px;
 }
@@ -222,14 +222,14 @@ button span {
   background-color: #e5e5f7;
   opacity: 0.8;
   background-image: radial-gradient(
-    #f1916e 1.4000000000000001px,
+    #92fa5a 1.4000000000000001px,
     #e5e5f7 1.4000000000000001px
   );
   background-size: 28px 28px;
 }
 #CONTACT {
-  background-color: #f1916e;
-  background-image: linear-gradient(315deg, #f1916e 0, #fffdeb 74%);
+  background-color: #92fa5a;
+  background-image: linear-gradient(315deg, #92fa5a 0, #fffdeb 74%);
   opacity: 0.8;
   background-size: 32px 32px;
 }
